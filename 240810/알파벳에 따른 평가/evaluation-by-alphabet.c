@@ -4,7 +4,7 @@ int main() {
     int a;
     scanf("%c", &a);
     if (a == 'S')
-    printf("superior");
+    printf("Superior");
     else if (a == 'A')
     printf("Excellent");
     else if (a == 'B')
