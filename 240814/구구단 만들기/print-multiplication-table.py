@@ -3,7 +3,7 @@ a, b = int(arr[0]), int(arr[1])
 for i in range(1, 10):
     for j in range(b, a-1, -2):
         print(f"{j} * {i} = {i*j} ", end="")
-        if a != b and j >2:
+        if a != b and j > a:
             print("/", end=" ")
     print()
 '''
