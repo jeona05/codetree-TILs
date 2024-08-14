@@ -13,5 +13,7 @@ for i in range(1, n+1):
         print(f"{i} * {j} = {i*j}", end="")
         if j < n:
             print("/", end=" ")
+            if a == b:
+                continue
     print()
 '''
